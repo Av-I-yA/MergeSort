@@ -22,11 +22,11 @@ plt.plot(X_axis, Y_re_axis, label='Recursive MergeSort', marker='s', linestyle='
 plt.xscale('log')
 plt.yscale('log')
 
-plt.xlabel('Input Size (n)', fontsize=12)
-plt.ylabel('Execution Time (nSecs)', fontsize=12)
+plt.xlabel('Input Size (n) - Log Scale', fontsize=12)
+plt.ylabel('Execution Time (nSecs) - Log Scale', fontsize=12)
 
 plt.grid(True, which="both", linestyle=':', alpha=0.5)
 plt.legend(frameon=True, shadow=True)
 
 plt.tight_layout()
-plt.savefig('mergesort_comparison.png', dpi=300)
+plt.savefig('test1.png', dpi=300)

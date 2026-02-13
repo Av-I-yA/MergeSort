@@ -1,0 +1,15 @@
+# Environments (The big one!)
+venv/
+
+# C++ Binaries and Objects
+main
+*.o
+src/*.o
+
+# Python artifacts
+__pycache__/
+
+# Output data (optional, but usually ignored)
+results_it.txt
+results_re.txt
+mergesort_comparison.png

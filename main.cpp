@@ -12,7 +12,7 @@ int main() {
     std::string line;
 
     std::ifstream infile_re("samples.txt");
-    std::ofstream outfile_re("results_re.txt");
+    std::ofstream outfile_re("test_results/results_re.txt");
     while (std::getline(infile_re, line)) {
         std::stringstream ss(line);
         std::vector<int> current_array;
@@ -33,7 +33,7 @@ int main() {
     outfile_re.close();
 
     std::ifstream infile_it("samples.txt");
-    std::ofstream outfile_it("results_it.txt");
+    std::ofstream outfile_it("test_results/results_it.txt");
     while (std::getline(infile_it, line)) {
         std::stringstream ss(line);
         std::vector<int> current_array;

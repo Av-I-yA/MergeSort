@@ -29,4 +29,4 @@ plt.grid(True, which="both", linestyle=':', alpha=0.5)
 plt.legend(frameon=True, shadow=True)
 
 plt.tight_layout()
-plt.savefig('test1.png', dpi=300)
+plt.savefig('test_images/test1.png', dpi=300)
